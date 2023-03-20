@@ -28,9 +28,9 @@ def main():
     elem = driver.find_element(By.XPATH,
                                '//*[@id="app"]/div/div/div[2]/div/div[2]/div/div[2]/div[3]/span/form/div[4]/button/span')
     elem.click()
-    time.sleep(5)
+    time.sleep(3)
 
-
+    #elem = add site?
 
 if __name__ == '__main__':
     main()
